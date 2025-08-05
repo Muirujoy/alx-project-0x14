@@ -1,7 +1,7 @@
 import React from "react";
-import { ButtonProps } from "@interfaces";
+import * as Interfaces from "@interfaces";
 
-const Button: React.FC<ButtonProps> = ({ title, action }) => {
+const Button: React.FC<Interfaces.ButtonProps> = ({ title, action }) => {
   return (
     <button
       onClick={action}
